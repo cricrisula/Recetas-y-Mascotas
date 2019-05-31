@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ultimoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Mascotas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre_Mascota" Type="nvarchar" MaxLength="100" />
+    <Property Name="Color" Type="nvarchar" MaxLength="100" />
+    <Property Name="Raza" Type="nvarchar" MaxLength="100" />
+    <Property Name="Edad" Type="nvarchar" MaxLength="100" />
+    <Property Name="Sexo" Type="nvarchar" MaxLength="100" />
+    <Property Name="Nombre_Dueño" Type="nvarchar" MaxLength="100" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Recetas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre_Receta" Type="nvarchar" MaxLength="100" />
+    <Property Name="Pais" Type="nvarchar" MaxLength="100" />
+    <Property Name="Ingrediente1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Ingrediente2" Type="nvarchar" MaxLength="100" />
+    <Property Name="Ingrediente3" Type="nvarchar" MaxLength="100" />
+    <Property Name="Preparacion" Type="nvarchar" MaxLength="100" />
+    <Property Name="Cantidad_Personas" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityContainer Name="ultimoModelStoreContainer">
+    <EntitySet Name="Mascotas" EntityType="Self.Mascotas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Recetas" EntityType="Self.Recetas" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

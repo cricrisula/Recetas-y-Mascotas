@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ultimoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Mascotas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre_Mascota" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Color" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Raza" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Edad" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Sexo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Nombre_Dueño" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Telefono" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Recetas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre_Receta" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Pais" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Ingrediente1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Ingrediente2" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Ingrediente3" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Preparacion" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Cantidad_Personas" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="ultimoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Mascotas" EntityType="Self.Mascotas" />
+    <EntitySet Name="Recetas" EntityType="Self.Recetas" />
+  </EntityContainer>
+</Schema>

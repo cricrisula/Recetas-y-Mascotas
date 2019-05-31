@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ultimoModelStoreContainer" CdmEntityContainer="ultimoEntities">
+    <EntitySetMapping Name="Mascotas">
+      <EntityTypeMapping TypeName="ultimoModel.Mascotas">
+        <MappingFragment StoreEntitySet="Mascotas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre_Mascota" ColumnName="Nombre_Mascota" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Raza" ColumnName="Raza" />
+          <ScalarProperty Name="Edad" ColumnName="Edad" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="Nombre_Dueño" ColumnName="Nombre_Dueño" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Recetas">
+      <EntityTypeMapping TypeName="ultimoModel.Recetas">
+        <MappingFragment StoreEntitySet="Recetas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre_Receta" ColumnName="Nombre_Receta" />
+          <ScalarProperty Name="Pais" ColumnName="Pais" />
+          <ScalarProperty Name="Ingrediente1" ColumnName="Ingrediente1" />
+          <ScalarProperty Name="Ingrediente2" ColumnName="Ingrediente2" />
+          <ScalarProperty Name="Ingrediente3" ColumnName="Ingrediente3" />
+          <ScalarProperty Name="Preparacion" ColumnName="Preparacion" />
+          <ScalarProperty Name="Cantidad_Personas" ColumnName="Cantidad_Personas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

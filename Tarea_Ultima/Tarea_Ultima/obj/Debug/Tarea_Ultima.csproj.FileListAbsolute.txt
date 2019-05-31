@@ -1,0 +1,15 @@
+C:\Users\RONY REYES\Source\Repos\mantenimiento\Tarea_Ultima\Tarea_Ultima\bin\Debug\Tarea_Ultima.exe.config
+C:\Users\RONY REYES\Source\Repos\mantenimiento\Tarea_Ultima\Tarea_Ultima\bin\Debug\Tarea_Ultima.exe
+C:\Users\RONY REYES\Source\Repos\mantenimiento\Tarea_Ultima\Tarea_Ultima\bin\Debug\Tarea_Ultima.pdb
+C:\Users\RONY REYES\Source\Repos\mantenimiento\Tarea_Ultima\Tarea_Ultima\bin\Debug\EntityFramework.dll
+C:\Users\RONY REYES\Source\Repos\mantenimiento\Tarea_Ultima\Tarea_Ultima\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\RONY REYES\Source\Repos\mantenimiento\Tarea_Ultima\Tarea_Ultima\bin\Debug\EntityFramework.xml
+C:\Users\RONY REYES\Source\Repos\mantenimiento\Tarea_Ultima\Tarea_Ultima\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\RONY REYES\Source\Repos\mantenimiento\Tarea_Ultima\Tarea_Ultima\obj\Debug\Tarea_Ultima.csprojResolveAssemblyReference.cache
+C:\Users\RONY REYES\Source\Repos\mantenimiento\Tarea_Ultima\Tarea_Ultima\obj\Debug\Tarea_Ultima.Form1.resources
+C:\Users\RONY REYES\Source\Repos\mantenimiento\Tarea_Ultima\Tarea_Ultima\obj\Debug\Tarea_Ultima.Mascota.resources
+C:\Users\RONY REYES\Source\Repos\mantenimiento\Tarea_Ultima\Tarea_Ultima\obj\Debug\Tarea_Ultima.Properties.Resources.resources
+C:\Users\RONY REYES\Source\Repos\mantenimiento\Tarea_Ultima\Tarea_Ultima\obj\Debug\Tarea_Ultima.Receta.resources
+C:\Users\RONY REYES\Source\Repos\mantenimiento\Tarea_Ultima\Tarea_Ultima\obj\Debug\Tarea_Ultima.csproj.GenerateResource.Cache
+C:\Users\RONY REYES\Source\Repos\mantenimiento\Tarea_Ultima\Tarea_Ultima\obj\Debug\Tarea_Ultima.exe
+C:\Users\RONY REYES\Source\Repos\mantenimiento\Tarea_Ultima\Tarea_Ultima\obj\Debug\Tarea_Ultima.pdb
